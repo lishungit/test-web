@@ -1,6 +1,7 @@
 #VERSION 0.0.1
 # OS ubuntu
-FROM ubuntu:latest
+# FROM ubuntu:latest
+FROM docker.io/bitnami/nginx:1.21.6
 
 # Owner
 MAINTAINER lish
